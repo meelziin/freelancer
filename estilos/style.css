@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+:root {
+    --letra-padrao: #f0f8ff;
+    --letra-destaque: #0096FD;
+    --fundo: #21201F;
+    --fundo-destaque: #58b7f7;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+div#topo {
+    display: flex;
+    height: 400px;
+    background: var(--fundo);
+
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#topo-logo img {
+    width: 400px;
+    height: 350px;
+    margin-right: 5vw;
+}
+
+div#topo-titulo {
+    margin-left: 10vw;
+}
+
+div#topo-titulo h1 {
+    letter-spacing: 3px;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    color: var(--letra-padrao);
+}
+
+div#topo-titulo p {
+    letter-spacing: 3px;
+    line-height: 1.5em;
+    color: var(--letra-padrao);
+}
+
+div#assinatura {
+    height: 400px;
+    background-color: var(--fundo-destaque);
+}
+
+div#conteiner-flex {
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+div#ass-titulo h2{
+    font-size: 2em;
+    letter-spacing: 2px;
+    padding: 20px;
+    text-align: center;
+    color: var(--letra-padrao);    
+}
+
+div.planos td {
+    color: var(--letra-padrao);
+}
