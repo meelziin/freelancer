@@ -1,5 +1,5 @@
 div#topo {
-    height: 400px;
+    height: 60vh;
     flex-direction: column;
     justify-content: flex-start;
 }
