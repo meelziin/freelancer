@@ -1,3 +1,54 @@
-#topo-logo img {
-    display: none;
+div#topo {
+    height: 300px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+div#topo-logo img {
+    width: 180px;
+    height: 150px;
+}
+
+div#topo-titulo {
+    margin: 0px;
+}
+
+div#topo-titulo h1 {
+    font-size: 1.6em;
+    letter-spacing: 2px;
+}
+
+div#topo-titulo p {
+    letter-spacing: 1px;
+}
+
+div#assinatura {
+    height: 1150px;
+}
+
+div#conteiner-flex {
+    flex-direction: column;
+    align-items: center;
+}
+
+div#ass-titulo h2 {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.9em;
+}
+
+div.planos {
+    width: 350px;
+    margin-bottom: 40px;
+}
+
+div.planos:hover {
+    width: 400px;
+}
+
+div.planos td {
+    padding: 18px;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    color: var(--fundo);
 }
