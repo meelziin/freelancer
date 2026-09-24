@@ -14,11 +14,13 @@ div#topo-titulo {
 }
 
 div#topo-titulo h1 {
+    padding: 0px 10px;
     font-size: 1.6em;
     letter-spacing: 2px;
 }
 
 div#topo-titulo p {
+    padding: 0px 10px;
     letter-spacing: 1px;
 }
 
@@ -34,16 +36,16 @@ div#conteiner-flex {
 div#ass-titulo h2 {
     padding: 10px;
     margin-bottom: 10px;
-    font-size: 1.9em;
+    font-size: 1.6em;
 }
 
 div.planos {
-    width: 350px;
+    width: 270px;
     margin-bottom: 40px;
 }
 
 div.planos:hover {
-    width: 400px;
+    width: 300px;
 }
 
 div.planos td {
