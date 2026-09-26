@@ -293,6 +293,7 @@ div#rodape p {
 #lista-contato {
     display: flex;
     color: var(--letra-padrao);
+    margin-top: -5px;
 }
 
 #lista-contato li {

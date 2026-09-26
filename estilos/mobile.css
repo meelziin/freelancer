@@ -11,16 +11,18 @@ div#topo-logo img {
 
 div#topo-titulo {
     margin: 0px;
+    padding-bottom: 20px;
 }
 
 div#topo-titulo h1 {
-    padding: 0px 20px;
+    padding: 0px 10px 10px 0px;
     font-size: 1.6em;
     letter-spacing: 2px;
 }
 
 div#topo-titulo p {
-    padding: 0px 20px 10px 20px;
+    padding: 0px 10px 10px 0px;
+    margin-bottom: 5px;
     letter-spacing: 1px;
 }
 
@@ -75,6 +77,7 @@ div.conteiner-per {
 
 #lista-contato {
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 #lista-contato li {
