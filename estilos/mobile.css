@@ -60,6 +60,10 @@ div.conteiner-info {
     flex-direction: column;
 }
 
+div.flex-info {
+    justify-content: center;
+}
+
 aside.perguntas {
     width: 100%;
     padding: 50px 0px;
