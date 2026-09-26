@@ -6,6 +6,7 @@
     --fundo: #212121;
     --fundo-destaque: #58b7f7;
     --redes: #8b7fca;
+    --redes-clara: #9a91c7;
 }
 
 * {
@@ -225,6 +226,7 @@ div.conteiner-per {
     width: 70vw;
     height: 100%;
     padding: 50px;
+    background-color: var(--redes-clara);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.089);
     border-radius: 5px;
 
