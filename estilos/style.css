@@ -212,7 +212,6 @@ div.flex-info p {
 
 aside.perguntas {
     display: flex;
-    width: 100vw;
     height: 100%;
     padding: 50px;
     background-color: var(--redes);
@@ -270,11 +269,14 @@ div#rodape {
 }
 
 div#rodape h2 {
+    padding-bottom: 10px;
     font-size: 1.4em;
     color: var(--letra-padrao);
+    border-bottom: 1px solid var(--letra-padrao);
 }
 
 div#rodape p {
+    padding-top: 10px;
     color: var(--letra-padrao);
 }
 
