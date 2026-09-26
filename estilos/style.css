@@ -7,6 +7,8 @@
     --fundo-destaque: #58b7f7;
     --redes: #8b7fca;
     --redes-clara: #9a91c7;
+    --p: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --h: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -173,7 +175,7 @@ aside.sobre-nos {
 div.conteiner-info {
     display: flex;
     width: 70vw;
-    height: 70vh;
+    height: 100%;
     border-radius: 5px;
     background-color: white;
     color: var(--fundo);
@@ -195,19 +197,21 @@ div.flex-info img {
 }
 
 div#info {
-    align-content: center;
+    width: 90%;
+    align-content: start;
 }
 
 div.flex-info h2 {
     margin-bottom: 5px;
+    font-family: var(--h);
 }
 
 div.flex-info p {
     /* text-indent: 20px; */
-    padding-right: 15%;
-    margin-bottom: 10px;
-    line-height: 1.6em;
+    width: 100%;
+    padding-bottom: 10px;
     letter-spacing: 0.3px;
+    font-family: var(--p);
 }
 
 aside.perguntas {
@@ -233,25 +237,29 @@ div.conteiner-per {
 }
 
 div.motivos {
-    padding-right: 80px;
+    width: 100%;
+    word-wrap: normal;
 }
-
-div.motivos h3{
-    margin-bottom: 10px;
-}
-
-div
 
 div.motivos h2 {
+    font-family: var(--h);
     margin-bottom: 15px;
 }
 
+div.motivos h3{
+    font-family: var(--h);
+    margin-bottom: 10px;
+}
+
 div.motivos p {
+    font-family: var(--p);
     margin-bottom: 15px;
 }
 
 div.motivos ul > li {
+    font-family: var(--h);
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 footer {
@@ -271,12 +279,14 @@ div#rodape {
 div#rodape h2 {
     padding-bottom: 10px;
     font-size: 1.4em;
+    font-family: var(--h);
     color: var(--letra-padrao);
     border-bottom: 1px solid var(--letra-padrao);
 }
 
 div#rodape p {
     padding-top: 10px;
+    font-family: var(--p);
     color: var(--letra-padrao);
 }
 
@@ -292,5 +302,6 @@ div#rodape p {
 
 #lista-contato a {
     text-decoration: none;
+    font-family: var(--p);
     color: var(--letra-padrao);
 }
