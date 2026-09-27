@@ -2,7 +2,10 @@
 
 :root {
     --letra-padrao: #f0f8ff;
+    --letra-clara: #d3d3d3;
     --letra-destaque: #0096FD;
+    --ouro: #cece00e0;
+    --diamante: #00abd6ec;
     --fundo: #212121;
     --fundo-destaque: #58b7f7;
     --redes: #8b7fca;
@@ -156,6 +159,17 @@ div.botao p {
     background-color: var(--fundo);
     color: var(--letra-padrao);
     border-radius: 0px 0px 5px 5px;
+    transition: 0.5s;
+}
+
+#ouro p:hover {
+    font-weight: bold;
+    background-color: var(--ouro);
+}
+
+#diamante p:hover {
+    font-weight: bold;
+    background-color: var(--diamante);
 }
 
 div.botao a {
@@ -299,10 +313,20 @@ div#rodape p {
 #lista-contato li {
     padding-right: 10px;
     margin: 20px;
+    transition: 0.5s;
+}
+
+#lista-contato li:hover {
+    color: var(--letra-destaque);
 }
 
 #lista-contato a {
     text-decoration: none;
     font-family: var(--p);
     color: var(--letra-padrao);
+    transition: 0.5s;
+}
+
+#lista-contato a:hover {
+    color: var(--letra-clara);
 }
